@@ -24,7 +24,6 @@ function Navigation() {
                         Contact
                     </a>
                 </div>
-
                 <div className="navbar-end">
                     <div className="navbar-item">
                         <div className="buttons">
