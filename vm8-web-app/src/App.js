@@ -9,7 +9,6 @@ import About from "./components/about";
 function App() {
   return (
       <>
-
         <Navigation/>
           <div className="App">
               <Routes>

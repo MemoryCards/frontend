@@ -1,9 +1,12 @@
 import React from 'react';
+import Navigation from "./navigation";
 
 function About(){
 
-    return(
-        <p>This is about page</p>
+    return(<>
+        <Navigation/>
+            <p>This is about page</p>
+    </>
     )
 
 }
