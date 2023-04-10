@@ -1,11 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Navigation from "./components/nav";
+import {createBrowserRouter} from "react-router-dom";
+import ApiTest from "./components/api-test";
 function App() {
   return (
     <>
-      <Navigation></Navigation>
+        <a href={'/cards'}>cards</a>
     </>
   );
 }
